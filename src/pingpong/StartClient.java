@@ -36,9 +36,9 @@ public class StartClient {
             }
 
         } catch (Exception e) {
-            //e.printStackTrace();
+            if(socket == null) System.out.println("Server not responded");
         } finally {
-            ih.setActive(false);
+            if(ih != null) ih.setActive(false);
             CloseResources(is, os, socket);
         }
     }

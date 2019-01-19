@@ -28,7 +28,5 @@ public class Share {
             if(socket != null) socket.close();
         } catch (Exception e) {e.printStackTrace();}
     }
-
-
 }
 

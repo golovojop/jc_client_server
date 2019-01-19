@@ -42,7 +42,6 @@ public class InputHandler extends Thread {
                     case SERVER:
                         System.out.println("Client closed connection. Press ENTER twice to accept a new client.");
                 }
-
             }
         }
     }
